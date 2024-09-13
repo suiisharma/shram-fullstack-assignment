@@ -1,7 +1,5 @@
 # Memory Master: Emoji Challenge
-
-![Memory Master Icon](./frontend/public/memory-master-icon.svg)
-
+<img src="./frontend/public/memory-master-icon.svg" alt="Memory Master Icon" width="100">
 ## 🎮 About the Project
 
 Memory Master: Emoji Challenge is a full-stack web application featuring an engaging React-based memory game that challenges players to match emoji pairs. The project consists of a frontend built with React and Vite, and a backend server handling player authentication, score tracking, and leaderboard functionality.
