@@ -1,0 +1,42 @@
+/* Base Glow effect */
+.glow {
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    background: transparent;
+    overflow: hidden;
+    animation: neonGlow 3s infinite alternate;
+}
+
+/* Adding the glowing effect */
+.glow::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: 10px;
+    border: 3px solid transparent;
+    box-shadow: 0 0 15px rgba(36, 236, 255, 0.6), 0 0 30px rgba(36, 236, 255, 0.6);
+    filter: drop-shadow(0 0 10px #24ecff);
+    animation: neonGlow 3s infinite alternate;
+    pointer-events: none;
+}
+
+/* Keyframes for the neon glow animation */
+@keyframes neonGlow {
+    0% {
+        box-shadow: 0 0 15px rgba(36, 236, 255, 0.6), 0 0 30px rgba(36, 236, 255, 0.6);
+        border-color: rgba(36, 236, 255, 0.6);
+    }
+    50% {
+        box-shadow: 0 0 15px rgba(147, 255, 45, 0.6), 0 0 30px rgba(147, 255, 45, 0.6);
+        border-color: rgba(147, 255, 45, 0.6);
+    }
+    100% {
+        box-shadow: 0 0 15px rgba(36, 236, 255, 0.6), 0 0 30px rgba(36, 236, 255, 0.6);
+        border-color: rgba(36, 236, 255, 0.6);
+    }
+}
