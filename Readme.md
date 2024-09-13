@@ -43,8 +43,8 @@ Memory Master: Emoji Challenge is a full-stack web application featuring an enga
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/memory-master-emoji-challenge.git
-   cd memory-master-emoji-challenge
+   git clone https://github.com/suiisharma/shram-fullstack-assignment.git
+   cd shram-fullstack-assignment
    ```
 
 2. Set up the backend:
